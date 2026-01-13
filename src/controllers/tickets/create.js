@@ -10,7 +10,7 @@ export function create(request, response, database) {
         user_name,
         status: "open",
         created_at: new Date(),
-        update_at: new Date(),
+        updated_at: new Date(),
     }
 
     database.insert("tickets", ticket)
